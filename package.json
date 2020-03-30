@@ -6,9 +6,10 @@
   "scripts": {
     "test": "jest",
     "prebuild": "rimraf dist && node generate-pages",
-    "build": "parcel build ./src/**/*.*",
+    "build": "parcel build ./src/**/*.* --public-url %2E/ --no-source-maps",
     "prestart": "node generate-pages",
-    "start": "parcel ./src/**/*.*",
+    "start": "parcel ./src/**/*.* --public-url ./ --open",
+    "prepublish": "yarn build",
     "publish": "gh-pages -d ./dist"
   },
   "author": "Joaquim Neto <joaquimmy@yahoo.com>",
