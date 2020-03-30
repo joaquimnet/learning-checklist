@@ -1,0 +1,168 @@
+{
+  "📱 Webworks": [
+    {
+      "pageName": "HTTP",
+      "path": "./pages/webworks/http.html"
+    },
+    {
+      "pageName": "Web Requests",
+      "path": "./pages/webworks/web-requests.html"
+    }
+  ],
+  "🎨 Styles": [
+    {
+      "pageName": "Basic HTML & CSS",
+      "path": "./pages/styles/basic-html-and-css.html"
+    },
+    {
+      "pageName": "Responsive Layout",
+      "path": "./pages/styles/responsive-layout.html"
+    },
+    {
+      "pageName": "CSS Transitions and Animations",
+      "path": "./pages/styles/css-transitions-and-animations.html"
+    },
+    {
+      "pageName": "CSS Architectures",
+      "path": "./pages/styles/css-architectures.html"
+    },
+    {
+      "pageName": "Sass Pre-Processor",
+      "path": "./pages/styles/sass-pre-processor.html"
+    },
+    {
+      "pageName": "HTML / CSS Framework",
+      "path": "./pages/styles/html-css-framework.html"
+    }
+  ],
+  "💻 Frontending": [
+    {
+      "pageName": "Javascript",
+      "path": "./pages/frontending/javascript.html"
+    },
+    {
+      "pageName": "Frontend Framework",
+      "path": "./pages/frontending/frontend-framework.html"
+    },
+    {
+      "pageName": "State Management",
+      "path": "./pages/frontending/state-management.html"
+    },
+    {
+      "pageName": "PWA",
+      "path": "./pages/frontending/pwa.html"
+    },
+    {
+      "pageName": "Accessibility",
+      "path": "./pages/frontending/accessibility.html"
+    },
+    {
+      "pageName": "Static Site Generators",
+      "path": "./pages/frontending/static-site-generators.html"
+    }
+  ],
+  "🖥 Backending": [
+    {
+      "pageName": "Server Side Language",
+      "path": "./pages/backending/server-side-language.html"
+    },
+    {
+      "pageName": "Server Framework",
+      "path": "./pages/backending/server-framework.html"
+    },
+    {
+      "pageName": "Database",
+      "path": "./pages/backending/database.html"
+    },
+    {
+      "pageName": "ORM",
+      "path": "./pages/backending/orm.html"
+    }
+  ],
+  "🔧 Tooling": [
+    {
+      "pageName": "WebDev Tooling",
+      "path": "./pages/tooling/webdev-tooling.html"
+    },
+    {
+      "pageName": "Typescript",
+      "path": "./pages/tooling/typescript.html"
+    }
+  ],
+  "📦 Deployment": [
+    {
+      "pageName": "Basic Deployment",
+      "path": "./pages/deployment/basic-deployment.html"
+    },
+    {
+      "pageName": "FaaS PaaS Deployment",
+      "path": "./pages/deployment/faas-paas-deployment.html"
+    }
+  ],
+  "👓 Beyond The Browser": [
+    {
+      "pageName": "Mobile Development",
+      "path": "./pages/beyond-the-browser/mobile-development.html"
+    },
+    {
+      "pageName": "Desktop Apps",
+      "path": "./pages/beyond-the-browser/desktop-apps.html"
+    }
+  ],
+  "🧱 DevOping": [
+    {
+      "pageName": "Containers",
+      "path": "./pages/devoping/containers.html"
+    },
+    {
+      "pageName": "CI/CD",
+      "path": "./pages/devoping/ci-cd.html"
+    },
+    {
+      "pageName": "Cloud Providers",
+      "path": "./pages/devoping/cloud-providers.html"
+    }
+  ],
+  "🟡 Testing": [
+    {
+      "pageName": "Testing Tooling",
+      "path": "./pages/testing/testing-tooling.html"
+    },
+    {
+      "pageName": "Testing Types",
+      "path": "./pages/testing/testing-types.html"
+    }
+  ],
+  "🧩 Meta Programming": [
+    {
+      "pageName": "Creational design patterns",
+      "path": "./pages/meta-programming/creational-design-patterns.html"
+    },
+    {
+      "pageName": "Structural design patterns",
+      "path": "./pages/meta-programming/structural-design-patterns.html"
+    },
+    {
+      "pageName": "Behavioral design patterns",
+      "path": "./pages/meta-programming/behavioral-design-patterns.html"
+    },
+    {
+      "pageName": "Programming Paradigms",
+      "path": "./pages/meta-programming/programming-paradigms.html"
+    }
+  ],
+  "🧶 Beyond The Trinity": [
+    {
+      "pageName": "CMS",
+      "path": "./pages/beyond-the-trinity/cms.html"
+    },
+    {
+      "pageName": "Other Languages",
+      "path": "./pages/beyond-the-trinity/other-languages.html"
+    },
+    {
+      "pageName": "Other... Stuff?",
+      "path": "./pages/beyond-the-trinity/other-stuff.html"
+    }
+  ]
+}
