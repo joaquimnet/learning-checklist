@@ -1,0 +1,29 @@
+{
+  "name": "learning",
+  "version": "0.1.0",
+  "description": "My checklist for learning web development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prebuild": "rimraf dist && node generate-pages",
+    "build": "parcel build ./src/**/*.*",
+    "prestart": "node generate-pages",
+    "start": "parcel ./src/**/*.*",
+    "publish": "gh-pages -d ./dist"
+  },
+  "author": "Joaquim Neto <joaquimmy@yahoo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "marked": "^0.8.2",
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.2"
+  },
+  "browserslist": [
+    "> 2%",
+    "not dead"
+  ],
+  "dependencies": {
+    "domil": "^1.0.2"
+  }
+}
