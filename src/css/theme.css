@@ -10,6 +10,9 @@
 .heading .brand {
   color: white;
   font-family: Lobster, cursive;
+  user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
 }
 
 .search-box .search-button {
@@ -30,7 +33,7 @@
   font-family: Lobster, cursive;
   font-size: 2rem;
   text-decoration: none;
-  z-index: -1;
+  /* z-index: -1; */
   transition: all 80ms ease-in;
 }
 

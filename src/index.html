@@ -15,23 +15,37 @@
     <script src="./js/app.js" defer></script>
   </head>
   <body>
-    <header class="heading">
-      <a href="home" class="brand">Learning Checklist</a>
-      <div class="navbar">
-        <div class="search-box">
-          <input type="text" class="search-input" placeholder="What are you looking for?" />
-          <button class="search-button">Search</button>
+    <div id="app">
+      <header class="heading">
+        <span class="brand">Learning Checklist</span>
+        <div class="navbar">
+          <div class="search-box">
+            <input type="text" class="search-input" placeholder="What are you looking for?" />
+            <button class="search-button">Search</button>
+          </div>
         </div>
+        <div class="fixed-overside" @click="clicked" v-show="showUpButton">UP</div>
+      </header>
+      <div class="sidebar no-scroll">
+        <div v-if="!sidebarItems.length" class="sidebar-group">
+          <span class="sidebar-header">
+            Loading...
+          </span>
+        </div>
+        <template v-else>
+          <div class="sidebar-group" v-for="sidebarItem in sidebarItems">
+            <span class="sidebar-header">
+              {{sidebarItem.category}}
+            </span>
+            <ul>
+              <li v-for="topic in sidebarItem.topics" @click="linkClicked">
+                <a :href="topic.path">{{topic.pageName}}</a>
+              </li>
+            </ul>
+          </div>
+        </template>
       </div>
-      <div class="fixed-overside">UP</div>
-    </header>
-    <div class="sidebar no-scroll">
-      <div class="sidebar-group">
-        <span class="sidebar-header">
-          Loading...
-        </span>
-      </div>
+      <div class="content" v-html="currentPage"></div>
     </div>
-    <div class="content"><h1>Click on a link to navigate.</h1></div>
   </body>
 </html>
