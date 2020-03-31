@@ -8,7 +8,7 @@
     "prebuild": "rimraf dist && node generate-pages",
     "build": "parcel build ./src/**/*.* --public-url %2E/ --no-source-maps",
     "prestart": "node generate-pages",
-    "start": "parcel ./src/**/*.* --public-url ./ --open",
+    "start": "parcel ./src/**/*.*",
     "prepublish": "yarn build",
     "publish": "gh-pages -d ./dist"
   },
@@ -25,6 +25,6 @@
     "not dead"
   ],
   "dependencies": {
-    "domil": "^1.0.2"
+    "vue": "^2.6.11"
   }
 }
